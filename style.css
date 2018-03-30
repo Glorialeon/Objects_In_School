@@ -1,0 +1,278 @@
+body{
+    vertical-align: top;
+    background: #d9c7ff;
+    text-align: center;
+    color: darkslateblue;
+    font-family: "Andale Mono";
+}
+
+table{
+    width: 60%;
+    font-size: large;
+}
+
+#Students{
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#Students:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#Teachers{
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#Teachers:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#Sections{
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#Sections:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#studentList{
+     font-family: 'Andale Mono';
+     color: darkslateblue;
+     background-color: whitesmoke;
+     border: none;
+}
+
+#sectionList{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#addStudentToSection{
+    width: 175px;
+    height: 25px;
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#addStudentToSection:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#teacherList{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#sectionList1{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#addTeacherToSection{
+    width: 175px;
+    height: 25px;
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#addTeacherToSection:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#studentFirst{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#studentLast{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#studentGrade{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#teacherFirst{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#teacherLast{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#teacherSubject{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#sectionName{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#sectionCount{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#addStudent{
+     font-family: 'Andale Mono';
+     color: whitesmoke;
+     background-color: darkslateblue;
+     border: none;
+ }
+
+#addStudent:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#addSection{
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#addSection:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#addTeacher{
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#addTeacher:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#sectionList2{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#listStudentsInSection{
+    width: 175px;
+    height: 25px;
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#listStudentsInSection:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#listTeachersInSection{
+    width: 175px;
+    height: 25px;
+    font-family: 'Andale Mono';
+    color: whitesmoke;
+    background-color: darkslateblue;
+    border: none;
+}
+
+#listTeachersInSection:hover{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: darkslateblue;
+}
+
+#sectionList3{
+    font-family: 'Andale Mono';
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.selects {
+    width: 130px;
+    height: 25px
+}
+
+.buttons {
+    width: 130px;
+    height: 25px;
+}

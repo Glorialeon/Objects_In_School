@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objects in School</title>
+    <script src="action.js"></script>
+    <script src="object.js"></script>
+    <script src="data.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body onload="populateDropdowns()">
+
+<h1>Objects in School</h1>
+
+List Items
+
+<br>
+<br>
+
+<button id="Students" class="buttons" onclick="listStudents()">Students</button>
+<button id="Teachers" class="buttons" onclick="listTeachers()">Teachers</button>
+<button id="Sections" class="buttons" onclick="listSections()">Sections</button>
+
+<br>
+<br>
+
+<div id="outPut"></div>
+
+<br>
+<br>
+
+Add Students and Teachers to Sections
+<br><br>
+<select id="studentList" class="selects"></select>
+
+<select id="sectionList" class="selects"></select>
+
+<button id="addStudentToSection" class="buttons" onclick="addStudentToSection()">Add Student to Section</button>
+
+<br><br>
+
+<select id="teacherList" class="selects"></select>
+
+<select id="sectionList1" class="selects"></select>
+
+<button id="addTeacherToSection" class="buttons" onclick="addTeacherToSection()">Add Teacher to Section</button>
+<br>
+<br>
+
+<div id="addStudentsToSection"></div>
+<div id="addTeachersToSection"></div>
+
+<br>
+<br>
+
+<br>
+Add New Items
+<br><br>
+<input id="studentFirst" class="selects" placeholder="first name">
+<input id="studentLast" class="selects" placeholder="lastname">
+<input id="studentGrade" class="selects" placeholder="grade">
+
+<button id="addStudent" class="buttons" onclick="addStudent()">Add Student</button>
+
+<br><br>
+
+<input id="teacherFirst" class="selects" placeholder="first name">
+<input id="teacherLast" class="selects" placeholder="lastname">
+<input id="teacherSubject" class="selects" placeholder="subject">
+
+<button id="addTeacher" class="buttons" onclick="addTeacher()">Add Teacher</button>
+
+<br><br>
+
+<input id="sectionName" class="selects" placeholder="section name">
+<input id="sectionCount" class="selects" placeholder="section count">
+
+<button id="addSection" class="buttons" onclick="addSection()">Add Section</button>
+
+<br><br>
+
+<div id="addStudents"></div>
+
+<div id="addTeachers"></div>
+
+<div id="addSections"></div>
+
+<br>
+
+<br>
+List Students in a Section
+<br><br>
+<select id="sectionList2" class="selects"></select>
+<button id="listStudentsInSection" class="buttons" onclick="listStudentsInSection()">List Students in Section</button>
+<br>
+<br>
+<div id="listStudents"></div>
+<br>
+<br>
+<br>
+List Teachers in a Section
+<br><br>
+<select id="sectionList3" class="selects"></select>
+<button id="listTeachersInSection" class="buttons" onclick="listTeachersInSection()">List Teachers in Section</button>
+<br>
+<br>
+<div id="listTeachers"></div>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+</body>
+</html>
